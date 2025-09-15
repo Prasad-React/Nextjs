@@ -1,0 +1,128 @@
+{
+  "comment": "data for the project name with /nicapsc-iti/",
+ 
+
+  "menu": [
+    { "name": "Home", "link": "/", "type": "page" },
+    { "name": "About", "link": "/about", "type": "page" },
+    {
+      "name": "Reports",
+      "type": "dropdown",
+      "children": [
+        { "name": "District Wise Data", "link": "/reports/EshramData", "type": "page" },
+        { "name": "Registration Data", "link": "/reports/Login", "type": "page" }
+      ]
+    },
+    {
+      "name": "Transport",
+      "type": "dropdown",
+      "children": [
+        { "name": "Vehicles", "link": "/transport/vehicles", "type": "page" },
+        { "name": "Tracking", "link": "/transport/tracking", "type": "page" }
+      ]
+    },
+    { "name": "Contact", "link": "/contact", "type": "page" }
+  ],
+
+
+
+
+  "Header": [
+      {
+        "img1": [
+          {
+            "imgsrc": "/images/transport.jpg",
+            "imgalt": "logo1",
+            "link": "https://itiadmissions.ap.gov.in/"
+          }
+        ],
+        "header":" GSMT ",
+        "heading": "Mini Transport ",
+        "description": [
+          { "title": "  " }
+        ],
+        "img2": [
+          {
+            "imgsrc": "/images/transport.jpg",
+            "imgalt": "logo2",
+            "link": ""
+          }
+        ]
+      }
+    ],
+
+
+
+
+
+  "slides": [
+    {
+      "id": 1,
+      "title": "Mini Transport Solutions",
+      "description": "Affordable and reliable small-scale goods transportation across districts.",
+      "image": "/images/transport.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Heavy Load Vehicles",
+      "description": "Catering to bulk goods transport with safety and speed.",
+      "image": "/images/transport.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tracking Made Easy",
+      "description": "Live GPS tracking of all vehicles for complete transparency.",
+      "image": "/images/transport2.jpg"
+    }
+  ],
+
+     "Vehicle": [
+    {
+      "heading": "Vehicles List",
+      "detailservices": [
+      {
+      "header": "Mini Trasnsport",
+      "p": "",
+      "Serial":"S.No",
+      "VehicleType":"Vehicle Type",
+      "Capacity":"Capacity",
+      "VechicleNo":"Vechicle No",
+      "paragraph":[ 
+  
+        { "Serial":1,
+          "VehicleType":"xx",
+          "Capacity":"xx",
+          "VechicleNo":"xx"
+        },
+        { "Serial":2,
+          "VehicleType":"xx",
+          "Capacity":"xx",
+          "VechicleNo":"xx"
+        },
+        { "Serial":3,
+          "VehicleType":"xx",
+          "Capacity":"xx",
+          "VechicleNo":"xx"
+        },
+           { "Serial":4,
+          "VehicleType":"xx",
+          "Capacity":"xx",
+          "VechicleNo":"xx"
+        },
+        { "Serial":5,
+          "VehicleType":"xx",
+          "Capacity":"xx",
+          "VechicleNo":"xx"
+        },
+        { "Serial":6,
+          "VehicleType":"xx",
+          "Capacity":"xx",
+          "VechicleNo":"xx"
+        }
+     ]
+    }
+  ]
+  }
+  ]
+
+}
