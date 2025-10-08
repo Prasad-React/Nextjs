@@ -2,15 +2,24 @@
   "comment": "data for the project name with /nicapsc-iti/",
  
 
+    "Navbar":[
+      {
+         "imgsrc": "/images/delivery_truck.gif"
+      }
+
+    ],
+
+ 
   "menu": [
     { "name": "Home", "link": "/", "type": "page" },
     { "name": "About", "link": "/about", "type": "page" },
     {
-      "name": "Reports",
+      "name": "Join Us",
       "type": "dropdown",
       "children": [
-        { "name": "District Wise Data", "link": "/reports/EshramData", "type": "page" },
-        { "name": "Registration Data", "link": "/reports/Login", "type": "page" }
+        { "name": "Careers", "link": "/apply", "type": "page" },
+        { "name": "Franchise", "link": "/project", "type": "page" },
+        { "name": "Reports", "link": "/application", "type": "page" }
       ]
     },
     {
@@ -19,6 +28,16 @@
       "children": [
         { "name": "Vehicles", "link": "/transport/vehicles", "type": "page" },
         { "name": "Tracking", "link": "/transport/tracking", "type": "page" }
+      
+      ]
+    },
+      {
+      "name": "Support",
+      "type": "dropdown",
+      "children": [
+        { "name": "Support", "link": "/Contact_message", "type": "page" },
+        { "name": "Reports", "link": "/contact_report", "type": "page" }
+       
       ]
     },
     { "name": "Contact", "link": "/contact", "type": "page" }
@@ -26,18 +45,45 @@
 
 
 
+ "aboutus": [
+  {
+    "title": "About Us",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "GSMT G Satyanarayana MiniTransport, a road logistics service provider, established in the year 2010, by founder Satyanarayana, now occupies a place of pride among the leading Road Transport Organizations in South India. GSMT is spread across a network in Andhra Pradesh, Telangana, Karnataka, Tamil Nadu, Pondicherry, Maharashtra, Maharashtra and Odisha with ambitious expansion plans throughout India."
+      }
+   
+    ]
+  }
+],
+
+ "ContactUs": [
+  {
+    "title": "Contact Us",
+    "content": [
+       {
+        "address": "Vijayawada, Andhra Pradesh, India",
+        "contact":"9948505910",
+        "email":"prasad.oct29@gmail.com",
+         "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.4804313042255!2d80.61846017491654!3d16.506174884234038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fac52b5b6aa7%3A0x6dc3e93a049f23cf!2sVijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1695483626535!5m2!1sen!2sin"
+  }
+   
+    ]
+  }
+],
 
   "Header": [
       {
         "img1": [
           {
-            "imgsrc": "/images/transport.jpg",
+            "imgsrc": "/images/gsmt.jpg",
             "imgalt": "logo1",
-            "link": "https://itiadmissions.ap.gov.in/"
+            "link": ""
           }
         ],
         "header":" GSMT ",
-        "heading": "Mini Transport ",
+        "heading": "G Satyanarayana Mini Transport ",
         "description": [
           { "title": "  " }
         ],
@@ -50,6 +96,29 @@
         ]
       }
     ],
+
+
+
+ 
+  "gallery": [
+    {
+       "heading":"Gallery",
+      "header": "Transport",
+      "img1": [
+        { "src": "/images/photo1.jpg", "alt": "Nature 1" },
+        { "src": "/images/photo2.jpg", "alt": "Nature 2" },
+        { "src": "/images/photo3.jpg", "alt": "Nature 3" }
+      ]
+    },
+    {
+      "header": "Ware House",
+      "img1": [
+        { "src": "/images/photo1.jpg", "alt": "City 1" },
+        { "src": "/images/photo2.jpg", "alt": "City 2" },
+        { "src": "/images/photo3.jpg", "alt": "City 3" }
+      ]
+    }
+  ],
 
 
 
@@ -72,9 +141,60 @@
       "id": 3,
       "title": "Tracking Made Easy",
       "description": "Live GPS tracking of all vehicles for complete transparency.",
-      "image": "/images/transport2.jpg"
+      "image": "/images/transport.jpg"
     }
   ],
+
+
+   "servicesSection": {
+    "title": "Our  Services ",
+    "subtitle": "We offer a wide range of digital services to help your business grow."
+  }, 
+  "services": [
+  {
+    "title": "Transportation",
+    "description": "Transportation operations to elevate customer experience, deliver more value to partners.",
+    "icon": "FaTruck"
+  },
+  {
+    "title": "Warehousing",
+    "description": "We employ the specific warehouse management system order to provide overview of product order.",
+    "icon": "FaWarehouse"
+  },
+  {
+    "title": "Third-Party Logistics",
+    "description": "Our warehouse logistic services for you in a flexible manner and according to specific customer requirements.",
+    "icon": "FaBoxes"
+  }
+],
+
+"coreValues": [
+  {
+    "label": "Customer Comes First",
+    "icon": "HeartIcon"
+  },
+  {
+    "label": "Doing it Right All Times",
+    "icon": "CheckCircleIcon"
+  },
+  {
+    "label": "Adding Value to Community",
+    "icon": "UsersIcon"
+  },
+  {
+    "label": "Best Service & Standards",
+    "icon": "StarIcon"
+  },
+  {
+    "label": "Business & Work Ethics",
+    "icon": "ScaleIcon"
+  },
+  {
+    "label": "Team Values",
+    "icon": "ShieldCheckIcon"
+  }
+],
+
 
      "Vehicle": [
     {

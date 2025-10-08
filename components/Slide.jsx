@@ -1,11 +1,11 @@
 "use client";
-
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import menuData from "@/data/menu.json"; // ✅ import JSON
+import menuData from "@/data/menu.json"; 
+import colors from '../styles/colors';
 
 export default function TransportPage() {
-  const slides = menuData.slides; // ✅ fetch from JSON
+  const slides = menuData.slides; 
   const [current, setCurrent] = useState(0);
    
 
@@ -28,9 +28,10 @@ export default function TransportPage() {
   }, []);
 
   return (
-    <div className="  relative w-full max-w-10xl mx-auto mt-6 overflow-hidden rounded-2xl shadow-lg">
+    <div className="" style={{ backgroundColor: colors.customBlue[300], color: '', }}>
+    <div className="container relative max-w-10xl mx-auto mt-0 overflow-hidden  rounded-2xl shadow-lg">
       {/* Slide */}
-      <div className=" relative h-[400px] flex items-center justify-center bg-gray-100"   >
+      <div className=" px-4 relative h-[500px] flex items-center justify-center bg-gray-100"   >
         <Image
           src={slides[current].image}
           alt={slides[current].title}
@@ -51,7 +52,7 @@ export default function TransportPage() {
         ◀
       </button>
       <button
-        onClick={nextSlide}
+        onClick={nextSlide}       
         className="absolute top-1/2 right-4 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow"
       >
         ▶
@@ -69,6 +70,7 @@ export default function TransportPage() {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 }

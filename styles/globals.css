@@ -1,0 +1,29 @@
+/* Global styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Truck animation keyframes */
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+/* Animation class */
+.gif-truck-animation {
+  position: absolute;
+  animation: moveLeftToRight 10s linear infinite;
+}
+
+
+.header-bg {
+  background-image: url('/images/photo1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
