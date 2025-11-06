@@ -29,7 +29,7 @@ export default function TransportPage() {
 
   return (
     <div className="" style={{ backgroundColor: colors.customBlue[300], color: '', }}>
-    <div className="container relative max-w-10xl mx-auto mt-0 overflow-hidden  rounded-2xl shadow-lg">
+    <div className="container relative max-w-7xl mx-auto mt-0 overflow-hidden  rounded-2xl shadow-lg">
       {/* Slide */}
       <div className=" px-4 relative h-[500px] flex items-center justify-center bg-gray-100"   >
         <Image

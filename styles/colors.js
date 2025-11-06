@@ -12,7 +12,7 @@ const colors = {
     900: '#091814',
   },
   anotherColor: '#006A67',
-  bgColor1:'#F39F9F',
+  bgColor1:'#FFF8E7',
   bgColor2:'#682929ff',
   bgColor3:'#006A67',
   bgColor4:'#A376A2',
@@ -20,7 +20,10 @@ const colors = {
   bgColor6:'#568106ff',
   bgColor7:'#EF7722',
   bgColor8:'#8FA31E',
-  bgColor9:'#E8D4B7'
+  bgColor9:'#E8D4B7',
+  bgColor10:'#740707',
+  bgColor11:'#FFD700'
+
 };
 
 export default colors;

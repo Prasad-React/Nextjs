@@ -3,7 +3,6 @@
 
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header/page"; 
 import NavBar from "@/components/NavBar/page";
 import Slide from "@/components/Slide"; 
 import Services from "@/components/Services";
@@ -30,9 +29,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <header className="p-2" >
+        {/* <header className="p-2" >
           <Header />
-        </header>
+        </header> */}
 
         <NavBar />
 

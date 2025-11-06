@@ -1,5 +1,5 @@
 {
-  "comment": "data for the project name with /nicapsc-iti/",
+  "comment": "data for the project name with /gsmt/",
  
 
     "Navbar":[
@@ -40,7 +40,9 @@
        
       ]
     },
-    { "name": "Contact", "link": "/contact", "type": "page" }
+    { "name": "Contact", "link": "/contact", "type": "page" },
+     { "name": "Register", "link": "/register", "type": "page" },
+    { "name": "Login", "link": "/login", "type": "page" }
   ],
 
 
@@ -77,7 +79,7 @@
       {
         "img1": [
           {
-            "imgsrc": "/images/gsmt.jpg",
+            "imgsrc": "/images/gsmt.png",
             "imgalt": "logo1",
             "link": ""
           }
@@ -135,13 +137,13 @@
       "id": 2,
       "title": "Heavy Load Vehicles",
       "description": "Catering to bulk goods transport with safety and speed.",
-      "image": "/images/transport.jpg"
+      "image": "/images/transport1.jpg"
     },
     {
       "id": 3,
       "title": "Tracking Made Easy",
       "description": "Live GPS tracking of all vehicles for complete transparency.",
-      "image": "/images/transport.jpg"
+      "image": "/images/transport2.jpg"
     }
   ],
 
